@@ -1,0 +1,49 @@
+/* PostListComponent.css */
+
+.container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+table {
+  width: 80%; /* Adjust the width to suit your layout */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center text within cells */
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
